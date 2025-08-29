@@ -1,0 +1,11 @@
+metric,value
+transactions_total,10000
+success,9142
+retry,735
+fail,123
+cpu_time_sec_total,1231.08
+compute_cost_usd,0.0249
+cost_per_transaction_usd,2e-06
+labor_saved_minutes,7131.0
+downtime_saved_minutes,50.0
+p95_duration_sec,0.333
