@@ -1,6 +1,11 @@
-import pkg_resources
 
-try:
-    __version__ = pkg_resources.get_distribution('setuptools').version
-except Exception:
-    __version__ = 'unknown'
+"""
+Module to expose more detailed version info for the installed `numpy`
+"""
+version = "2.3.2"
+__version__ = version
+full_version = version
+
+git_revision = "bc5e4f811db9487a9ea1618ffb77a33b3919bb8e"
+release = 'dev' not in version and '+' not in version
+short_version = version.split("+")[0]
